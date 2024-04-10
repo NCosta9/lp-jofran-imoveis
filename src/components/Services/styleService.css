@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#services{
+    background-color: #f3f3f3;
+  }
+  .services .icon-box {
+    padding: 60px 30px;
+    transition: all ease-in-out 0.3s;
+    background: transparent;
+    border-radius: 18px;
+  }
+  
+  .services .icon-box .icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+    color: #dea113;
+  }
+  
+  .services .icon-box .icon i {
+    font-size: 28px;
+  }
+  
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .services .icon-box h4 a {
+    color: #000000;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  
+  .services .icon-box:hover h4 a {
+    color: #000000;
+  }
+
+  .services .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .services .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #dea113;
+    bottom: 0;
+    left: 0;
+  }

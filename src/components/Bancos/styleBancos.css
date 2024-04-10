@@ -1,0 +1,45 @@
+#bancos {
+    background: rgb(247,196,5);
+    background: linear-gradient(45deg, rgb(204,136,29), rgb(247,196,5) 54%);
+    width: 100%;
+    margin: 0 auto;
+    
+}
+#bancos h2{
+    color: #000;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+#bancos p {
+    color: #282828;
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+#bancos .galeria{
+    padding: 0;
+}
+#bancos .img-icon{
+	display:inline-block;
+    height: 60px;
+	margin: 30px 5px 5px auto;
+	transition: .3s;
+    border-radius: 15px;
+}
+
+
+
+@media (max-width: 1024px) {
+    #bancos {
+      background-attachment: scroll;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    #bancos .img-icon{
+      display: inline-block;
+      align-items: center;
+      justify-content: flex-end;
+    }
+}

@@ -1,0 +1,26 @@
+#conditions{
+  margin: 0 auto;
+}
+#conditions .row{
+  margin: 0 auto;
+}
+
+  #conditions .icon {
+    background: rgb(0, 96, 166);
+    background: linear-gradient(45deg, rgb(0, 59,106), rgb(0, 96, 166) 54%);
+        border-radius: 30px;
+        padding: 8px;
+        width: 12.5rem;
+        margin-left: 10px;
+        
+  }
+  #conditions .icon h4{
+    color: #fff;
+    font-size: 1.0rem;
+  }
+  #conditions .icon svg{
+    width: 2.5em;
+    height: 2.5em;
+    color: #e8b00d;
+    
+  }

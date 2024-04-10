@@ -1,0 +1,154 @@
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+
+.team .team-member .member-img {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+
+  }
+  
+  .team .team-member .social {
+    position: absolute;
+    left: 0;
+    top: -18px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team .team-member .social a {
+    transition: color 0.3s;
+    color: #000;
+    background: #dea113;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  .team .team-member .social a i {
+    line-height: 0;
+    font-size: 16px;
+  }
+  
+  .team .team-member .social a:hover {
+    background: #dea113;
+  }
+  
+  .team .team-member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+  .team .team-member .member-info {
+    padding: 30px 15px;
+    text-align: center;
+    box-shadow: 0px 2px 15px #838282;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: -50px;
+    position: relative;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  .team .team-member .member-info h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #202020;
+  }
+  
+  .team .team-member .member-info span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202020;
+  }
+  
+  .team .team-member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #dea113;
+  }
+  
+  .team .team-member:hover .social {
+    opacity: 1;
+  }
+  
+  #team  img{
+    width: 80%;
+    margin: 0 auto;
+    background: url("https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/jofran/equipe.jpeg") top left no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 99;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+  }
+  @media (max-width: 1024px) {
+    #bancos {
+      background-attachment: scroll;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    #bancos .img-icon{
+      display: inline-block;
+      align-items: center;
+      justify-content: flex-end;
+    }
+}
+
+  
+  #team .container {
+    padding-top: 72px;
+    position: relative;
+    text-align: center;
+  }
+  
+  #team h1 {
+    margin: 400px 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+  #team h2 {
+    color: #eee;
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+  @media (min-width: 1024px) {
+    #team {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #team h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #team h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  
+  }

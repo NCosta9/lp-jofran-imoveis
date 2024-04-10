@@ -1,0 +1,58 @@
+
+  .custom {
+    background-color: transparent !important;
+  }
+
+
+ 
+.border-bottom-red{
+    border-bottom: 3px solid #c12437;
+    
+  }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  background: #fa6d06;
+  z-index: 100;
+  height: 30px;
+  padding: 25px;
+}
+#header button{
+  background-color: #06298d;
+  color: #fff;
+  font-weight: 600;
+  font-size: 10px;
+
+}
+
+#header.header-scrolled,
+#header.header-inner-pages {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#header .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#header .logo a {
+  color: #fff;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  #header {
+    border: 0;
+    padding: 15px 0;
+  }
+}

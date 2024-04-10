@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  /* background: url("") center center no-repeat; */
+  background-size: cover;
+  padding: 0px 0 40px 0;
+  position: relative;
+
+}
+
+.counts::before {
+  content: "";
+  position: absolute;
+  background: #232323;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.counts .title {
+  position: relative;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.counts .title h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.counters {
+  margin: 0 auto;
+
+}
+
+.counts .counters span {
+  font-size: 60px;
+  display: block;
+  font-weight: 700;
+  color: #fff;
+}
+
+.counts .counters p {
+  padding: 0;
+  margin: 0 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.counts .counters h3 {
+  padding: 0;
+  margin: 0 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 6
+}

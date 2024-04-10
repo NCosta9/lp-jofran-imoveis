@@ -1,0 +1,83 @@
+.bg-max {
+    background: rgb(0, 96, 166);
+    background: linear-gradient(45deg, rgb(0, 59, 106), rgb(0, 96, 166) 54%);
+    background-color: #fff;
+    max-width: 480px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+
+#fanpage .faixa {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+
+
+}
+
+#fanpage .faixa h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 300px;
+    margin: 0 auto;
+}
+#fanpage .faixa span {
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 300px;
+    margin: 0 auto;
+    color: #ddb603;
+}
+
+#fanpage .header {
+    background: rgb(0, 96, 166);
+    background: linear-gradient(45deg, rgb(0, 59, 106), rgb(0, 96, 166) 54%);
+
+}
+
+#fanpage .logo {
+    width: 120px;
+}
+
+#fanpage .banner {
+    margin-top: 0;
+    width: 100%;
+}
+
+#fanpage .body{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-fanpage {
+    background-color: #e8b00d;
+    box-shadow: 5px 5px 0px 0px #002c65;
+    border-radius: 0px;
+    font-weight: 700;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+
+.btn-fanpage:hover {
+    background-color: #f9bb00;
+    color: #000;
+    box-shadow: 8px 8px 0px 0px #002c65;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+#fanpage footer{
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+
+}

@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #0f0f0f;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    padding-top: 0;
+  }
+
+  #footer .maps{
+    margin-top: 0;
+    width: 100%; 
+    height: 350px;
+  } 
+  
+  #footer img{
+    width: 200px;
+  }
+
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 25px;
+    display: inline-block;
+    background: #e8b00d;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+  }
+  #footer .social-links i{
+    width: 60px;
+    height: 60px;
+  }
+  
+  #footer .social-links a:hover {
+    background: #cd891d;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
+  
+  #footer .credits a {
+    color: #e8b00d;
+    transition: 0.3s;
+  }
+  
+  #footer .credits a:hover {
+    color: #cd891d;
+  }
+  .info-box {
+    background-color: #fff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    padding: 20px 0 30px 0;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 0px;
+  }
+  
+.info-box i {
+    font-size: 32px;
+    color: #cc1616;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #f5a0a0;
+  }
+  
+ .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+.info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
