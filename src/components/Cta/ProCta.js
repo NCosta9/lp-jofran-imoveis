@@ -13,10 +13,9 @@ export default function ProCta() {
                             <p>Vamos encontrar a casa perfeita e com as melhores condições para você sair do aluguel a partir de agora! </p>
                         </div>
                         <div class="col-lg-3 cta-btn-container text-center">
-                            <Link class="cta-btn align-middle" to="cadastro">Quero uma casa própria</Link>
+                            <a class="cta-btn align-middle" href="https://imobiliaria.jofranimoveis.com.br/cadastro">Quero uma casa própria</a>
                         </div>
                     </div>
-
                 </div>
             </section>
 
