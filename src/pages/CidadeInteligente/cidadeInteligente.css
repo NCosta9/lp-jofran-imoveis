@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#cidadeI {
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+#cidadeI .header h1 {
+  font-weight: 900;
+  padding: 10px;
+  background-color: #b61d21;
+  color: #fff;
+}
+
+#cidadeI .banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/jofran/fundo/banner-cidade-inteligente.jpg?t=2024-04-15T21%3A59%3A56.911Z');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cidadeI .logo {
+  width: 400px;
+}
+
+.banner-cidadei {
+  width: 100%;
+  height: 90vh;
+  background: url("https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/jofran/fundo/banner-cidade-inteligente.jpg?t=2024-04-15T21%3A59%3A56.911Z") top center;
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+  padding-top: 40px;
+
+}
+
+
+
+.banner-cidadei .container {
+  position: relative;
+  text-align: center;
+}
+
+.banner-cidadei h1 {
+  margin: 0 0 10px 0;
+  font-size:  1.5em;
+  font-weight: 700;
+  line-height: 56px;
+  color: #000;
+}
+
+.banner-cidadei h2 {
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 1.5em;
+}
+
+.banner-cidadei video {
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 100%;
+  max-width: 560px;
+  max-height: 250px;
+}
+
+#cidadeI .text-banner h2 {
+  font-size: 45px;
+  color: #cb6503;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+#cidadeI .text-banner h3 {
+  font-size: 35px;
+  color: #387530;
+  font-weight: 700;
+  margin-bottom: 10px;
+  max-width: 450px;
+
+}
+
+#cidadeI .section-video{
+  background-image: url('https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/jofran/fundo/fundo-cidade-inteligente-video.webp?t=2024-04-17T13%3A07%3A41.782Z');
+  background-position: center center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#cidadeI .video {
+  border-radius: 30px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 100%;
+  max-width: 930px;
+  max-height: 523px;
+  box-shadow: #000 5px 5px 20px;
+}
+
+
+#cidadeI .oportunidade {
+  background: rgb(78, 131, 71);
+  background: linear-gradient(9deg, rgb(51, 86, 46) 0%, rgb(65, 116, 59) 35%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+margin-bottom:-80px;
+}
+
+#cidadeI .oportunidade h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+#cidadeI .oportunidade p {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center
+}
+
+#cidadeI .oportunidade .img-text{
+  display:flex;
+  margin: 0 auto;
+}
+
+
+#cidadeI .sabermais {
+  font-size: 2.0em;
+  color: #cb6503;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#cidadeI .sabermais span,
+#cidadeI .sabermais i {
+  color: #387530;
+}
+
+#cidadeI button {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  border-radius: 30px;
+  background-color: #387530;
+  border: none;
+  padding: 15px;
+  
+}
+
+#cidadeI button:hover {
+  background-color: #cb6503;
+}
+
+#cidadeI .footer {
+  background-color: #cb6503;
+  color: #fff;
+  margin-top: -50px;
+  margin-bottom: 0px;
+  height: 150px;
+}
+
+#cidadeI .footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#cidadeI .text-loteamento {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+#cidadeI .text-loteamento span{
+  border-bottom: #cb6503 3px solid;
+}
+
+#cidadeI .icons{
+  padding: 30px;
+}
+
+#cidadeI .icons h4{
+  font-size: 15px;
+  word-wrap: break-word;
+  margin-top: -13px;
+}

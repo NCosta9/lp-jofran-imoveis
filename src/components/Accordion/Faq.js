@@ -28,7 +28,7 @@ export default function Faq() {
                     <h4>Qual é o valor da entrada necessária?</h4>
                   </Accordion.Header>
                   <Accordion.Body className='accordion-body' >
-                   O Valor de entrada varia de acordo com a casa e o valor que o cliente deseja dar de entrada. Mas temos muitas casas que podem ser 100% financiada. <a href="/cadastro">  -Falar com um consultor  </a>
+                   O Valor de entrada varia de acordo com a casa e o valor que o cliente deseja dar de entrada. Mas temos muitas casas que podem ser 100% financiada. <a href="https://imobiliaria.jofranimoveis.com.br/forms-lp">  -Falar com um consultor  </a>
                   </Accordion.Body>
                 </Accordion.Item>
 
@@ -37,7 +37,7 @@ export default function Faq() {
                     <h4> Existem programas de incentivo ou subsídios disponíveis para compradores de primeira casa?</h4>
                   </Accordion.Header>
                   <Accordion.Body className='accordion-body' >
-                  Sim, nós temos casas com direito a subsidio disponíveis de vários valores diferentes e nossos financiamentos são facilitados pelo programa minha casa, minha vida. Aumentando ainda mais suas chances de conquistar a casa própria. <a href="/cadastro">  -Falar com um consultor  </a>  
+                  Sim, nós temos casas com direito a subsidio disponíveis de vários valores diferentes e nossos financiamentos são facilitados pelo programa minha casa, minha vida. Aumentando ainda mais suas chances de conquistar a casa própria. <a href="https://imobiliaria.jofranimoveis.com.br/forms-lp">  -Falar com um consultor  </a>  
                   </Accordion.Body>
                 </Accordion.Item>
 

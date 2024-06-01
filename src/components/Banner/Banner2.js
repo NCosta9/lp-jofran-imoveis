@@ -11,11 +11,15 @@ export default function Banner2() {
 
                     <div class="row justify-content-center">
                         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 text-start order-1 order-lg-1">
-                            <img class="perfil mb-5" src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/jofran/logos/logo-jofran-imoveis.png?t=2024-02-14T12%3A23%3A03.884Z" />
 
                             <h1 class="display-4 fw-bold lh-1 ">CASAS ATÉ 100% FINANCIADAS</h1>
-                            <h2 class="fs-3 text-light">Sua nova casa está esperando por você na <b>Jofran Imoveis</b>.</h2>
-
+                            <h2 class="fs-3"> 
+                            <ul>
+                                <li> Desconto de até 55 mil reais </li>
+                                <li> Financiamento "Minha Casa Minha Vida" </li>
+                            </ul>
+                            </h2>
+                            <a className='btn' src="https://jofranimoveis.com.br/imoveis/a-venda">Ver catálogo de Imóveis</a>
                         </div>
                         <div class="col-lg-4 offset-lg-1 p-0  overflow-hidden order-2 order-lg-2">
 

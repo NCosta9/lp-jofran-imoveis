@@ -1,0 +1,26 @@
+#oportunidade .card-cover{
+    max-height: 75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 60px;
+}
+#oportunidade .card-cover h3{
+    color:#FFF ;
+}
+
+#oportunidade .text-white{
+    z-index: 10;
+}
+
+.card-cover:before {
+    content: "";
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(31, 30, 30, 0.329) 0%, rgba(0, 0, 0, 0.719) 100%);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  }
